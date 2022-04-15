@@ -1,0 +1,34 @@
+<idea-plugin>
+    <id>ru.rabota.synthmigrate.SyntheticMigratePlugin</id>
+    <name>Synthetic Migrate</name>
+    <vendor email="sale@rabota.ru" url="https://rabota.ru/">Rabota.ru</vendor>
+
+    <description><![CDATA[
+    Help migrate from Synthetic to View-Binding
+    ]]></description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>org.jetbrains.kotlin</depends>
+    <depends>org.jetbrains.android</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <group id="MyPlugin.TopMenu"
+               text="SynthMigrate"
+               description="Click to start migrate">
+            <add-to-group group-id="MainMenu" anchor="last"/>
+            <action id="ru.rabota.synthmigrate"
+                    class="ru.rabota.synthmigrate.ShowMigrateSettingAction"
+                    text="Migrate"
+                    description="Migrate from synthetic"
+                    />
+        </group>
+    </actions>
+</idea-plugin>
