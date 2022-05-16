@@ -6,10 +6,11 @@
 
 ## Установка 
 1. Скачать jar [из последнего релиза](https://github.com/RabotaRu/synthetic-migrate-plugin/releases/)
-2. Preferences -> Plugins -> Settings -> Install Plugin From Disk 
+2. Preferences -> Plugins -> Settings -> Install Plugin From Disk <img width="640" alt="Снимок экрана 2022-04-15 в 16 16 27" src="https://user-images.githubusercontent.com/7330056/163575390-b1d815a6-7e73-487d-9076-d8dd81be4458.png">
 3. Выбрать jar
 4. Перезагрузить студию 
-<img width="640" alt="Снимок экрана 2022-04-15 в 16 16 27" src="https://user-images.githubusercontent.com/7330056/163575390-b1d815a6-7e73-487d-9076-d8dd81be4458.png">
+5. Точка входа в плагин появится в верхнем меню 
+<img width="175" alt="Снимок экрана 2022-05-16 в 15 40 01" src="https://user-images.githubusercontent.com/7330056/168594420-e4e2b9f9-2966-45af-b6b6-ddcdb0817534.png">
 
 
 
